@@ -1,6 +1,7 @@
 body {
   background-color: #f3f3f3;
   font-size: 24px;
+  margin: 0;
 }
 
 .App {
@@ -63,4 +64,13 @@ body {
 
 .btn:hover {
   background-color: salmon;
+}
+
+.customers {
+  padding: 50px 0;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border: 1px solid saddlebrown;
 }
